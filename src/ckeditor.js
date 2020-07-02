@@ -30,10 +30,10 @@ import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation';
 
-import FontSize from '@ckeditor/ckeditor5-font/src/fontsize';
-import FontFamily from '@ckeditor/ckeditor5-font/src/fontfamily';
+// import FontSize from '@ckeditor/ckeditor5-font/src/fontsize';
+// import FontFamily from '@ckeditor/ckeditor5-font/src/fontfamily';
 import FontColor from '@ckeditor/ckeditor5-font-color/src/fontcolor';
-import FontBackgroundColor from '@ckeditor/ckeditor5-font/src/fontbackgroundcolor';
+// import FontBackgroundColor from '@ckeditor/ckeditor5-font/src/fontbackgroundcolor';
 import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
 import Strikethrough from '@ckeditor/ckeditor5-basic-styles/src/strikethrough';
 import Base64UploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/base64uploadadapter';
@@ -66,10 +66,10 @@ ClassicEditor.builtinPlugins = [
 	Table,
 	TableToolbar,
 	TextTransformation,
-	FontSize,
-	FontFamily,
+	// FontSize,
+	// FontFamily,
 	FontColor,
-	FontBackgroundColor,
+	// FontBackgroundColor,
 	Alignment,
 	Strikethrough
 ];
@@ -80,9 +80,9 @@ ClassicEditor.defaultConfig = {
 		items: [
 			'heading',
 			'|',
-			'fontsize',
+			// 'fontsize',
 			'fontColor',
-			'fontBackgroundColor',
+			// 'fontBackgroundColor',
 			'|',
 			'bold',
 			'italic',
