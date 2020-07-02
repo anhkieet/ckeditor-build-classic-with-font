@@ -32,7 +32,7 @@ import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformatio
 
 import FontSize from '@ckeditor/ckeditor5-font/src/fontsize';
 import FontFamily from '@ckeditor/ckeditor5-font/src/fontfamily';
-import FontColor from '@ckeditor/ckeditor5-font/src/fontcolor';
+import FontColor from '@ckeditor/ckeditor5-font-color/src/fontcolor';
 import FontBackgroundColor from '@ckeditor/ckeditor5-font/src/fontbackgroundcolor';
 import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
 import Strikethrough from '@ckeditor/ckeditor5-basic-styles/src/strikethrough';
